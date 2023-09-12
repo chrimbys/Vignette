@@ -19,7 +19,7 @@ public class CharactorController : MonoBehaviour
         //Debug.Log("Start num=" + waitTime);
         Invoke("MotionCoroutine",waitTime);
     }
-    void Update()
+    void Update()//動作確認用
     {
         /*if (Input.GetKeyDown(KeyCode.Space))
         {
